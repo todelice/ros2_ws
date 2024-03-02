@@ -1,0 +1,45 @@
+[0.026s] Invoking command in '/home/robotik/ros2_ws/build/robot_spawner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotik/ros2_ws/src/robot_spawner -DCMAKE_INSTALL_PREFIX=/home/robotik/ros2_ws/install/robot_spawner
+[0.034s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.124s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.144s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.146s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.150s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.157s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.168s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.208s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.208s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.288s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.396s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.453s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.454s] -- Added test 'lint_cmake' to check CMake code style
+[0.455s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.456s] -- Added test 'xmllint' to check XML markup files
+[0.457s] -- Configuring done
+[0.462s] -- Generating done
+[0.463s] -- Build files have been written to: /home/robotik/ros2_ws/build/robot_spawner
+[0.468s] Invoked command in '/home/robotik/ros2_ws/build/robot_spawner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotik/ros2_ws/src/robot_spawner -DCMAKE_INSTALL_PREFIX=/home/robotik/ros2_ws/install/robot_spawner
+[0.469s] Invoking command in '/home/robotik/ros2_ws/build/robot_spawner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotik/ros2_ws/build/robot_spawner -- -j12 -l12
+[0.494s] Invoked command in '/home/robotik/ros2_ws/build/robot_spawner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotik/ros2_ws/build/robot_spawner -- -j12 -l12
+[0.511s] Invoking command in '/home/robotik/ros2_ws/build/robot_spawner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotik/ros2_ws/build/robot_spawner
+[0.517s] -- Install configuration: ""
+[0.517s] -- Installing: /home/robotik/ros2_ws/install/robot_spawner/share/robot_spawner//launch
+[0.517s] -- Installing: /home/robotik/ros2_ws/install/robot_spawner/share/robot_spawner//launch/gazebo.launch.py
+[0.517s] -- Installing: /home/robotik/ros2_ws/install/robot_spawner/share/robot_spawner//src
+[0.517s] -- Installing: /home/robotik/ros2_ws/install/robot_spawner/share/robot_spawner//include
+[0.517s] -- Installing: /home/robotik/ros2_ws/install/robot_spawner/share/robot_spawner//include/robot_spawner
+[0.517s] -- Installing: /home/robotik/ros2_ws/install/robot_spawner/share/ament_index/resource_index/package_run_dependencies/robot_spawner
+[0.517s] -- Installing: /home/robotik/ros2_ws/install/robot_spawner/share/ament_index/resource_index/parent_prefix_path/robot_spawner
+[0.517s] -- Installing: /home/robotik/ros2_ws/install/robot_spawner/share/robot_spawner/environment/ament_prefix_path.sh
+[0.517s] -- Installing: /home/robotik/ros2_ws/install/robot_spawner/share/robot_spawner/environment/ament_prefix_path.dsv
+[0.517s] -- Installing: /home/robotik/ros2_ws/install/robot_spawner/share/robot_spawner/environment/path.sh
+[0.517s] -- Installing: /home/robotik/ros2_ws/install/robot_spawner/share/robot_spawner/environment/path.dsv
+[0.517s] -- Installing: /home/robotik/ros2_ws/install/robot_spawner/share/robot_spawner/local_setup.bash
+[0.517s] -- Installing: /home/robotik/ros2_ws/install/robot_spawner/share/robot_spawner/local_setup.sh
+[0.518s] -- Installing: /home/robotik/ros2_ws/install/robot_spawner/share/robot_spawner/local_setup.zsh
+[0.518s] -- Installing: /home/robotik/ros2_ws/install/robot_spawner/share/robot_spawner/local_setup.dsv
+[0.518s] -- Installing: /home/robotik/ros2_ws/install/robot_spawner/share/robot_spawner/package.dsv
+[0.518s] -- Installing: /home/robotik/ros2_ws/install/robot_spawner/share/ament_index/resource_index/packages/robot_spawner
+[0.518s] -- Installing: /home/robotik/ros2_ws/install/robot_spawner/share/robot_spawner/cmake/robot_spawnerConfig.cmake
+[0.518s] -- Installing: /home/robotik/ros2_ws/install/robot_spawner/share/robot_spawner/cmake/robot_spawnerConfig-version.cmake
+[0.518s] -- Installing: /home/robotik/ros2_ws/install/robot_spawner/share/robot_spawner/package.xml
+[0.520s] Invoked command in '/home/robotik/ros2_ws/build/robot_spawner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotik/ros2_ws/build/robot_spawner

@@ -10,6 +10,24 @@ find_package(ament_cmake REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
+# Find dependencies
+find_package(ament_cmake REQUIRED)
+find_package(rclcpp REQUIRED)
+#find_package(gazebo_ros_pkgs REQUIRED) # This is where gazebo_ros is typically included
+
+# Include directories
+include_directories(include ${ament_INCLUDE_DIRS})
+
+# Add executable
+# add_executable(your_node_name src/your_node.cpp)
+# ament_target_dependencies(your_node_name rclcpp gazebo_ros_pkgs)
+
+# Install launch files
+install(DIRECTORY
+  launch src include
+  DESTINATION share/${PROJECT_NAME}/
+)
+
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

@@ -1,0 +1,16 @@
+/home/robotik/ros2_ws/install/robot_spawner/share/robot_spawner//launch/gazebo.launch.py
+/home/robotik/ros2_ws/install/robot_spawner/share/ament_index/resource_index/package_run_dependencies/robot_spawner
+/home/robotik/ros2_ws/install/robot_spawner/share/ament_index/resource_index/parent_prefix_path/robot_spawner
+/home/robotik/ros2_ws/install/robot_spawner/share/robot_spawner/environment/ament_prefix_path.sh
+/home/robotik/ros2_ws/install/robot_spawner/share/robot_spawner/environment/ament_prefix_path.dsv
+/home/robotik/ros2_ws/install/robot_spawner/share/robot_spawner/environment/path.sh
+/home/robotik/ros2_ws/install/robot_spawner/share/robot_spawner/environment/path.dsv
+/home/robotik/ros2_ws/install/robot_spawner/share/robot_spawner/local_setup.bash
+/home/robotik/ros2_ws/install/robot_spawner/share/robot_spawner/local_setup.sh
+/home/robotik/ros2_ws/install/robot_spawner/share/robot_spawner/local_setup.zsh
+/home/robotik/ros2_ws/install/robot_spawner/share/robot_spawner/local_setup.dsv
+/home/robotik/ros2_ws/install/robot_spawner/share/robot_spawner/package.dsv
+/home/robotik/ros2_ws/install/robot_spawner/share/ament_index/resource_index/packages/robot_spawner
+/home/robotik/ros2_ws/install/robot_spawner/share/robot_spawner/cmake/robot_spawnerConfig.cmake
+/home/robotik/ros2_ws/install/robot_spawner/share/robot_spawner/cmake/robot_spawnerConfig-version.cmake
+/home/robotik/ros2_ws/install/robot_spawner/share/robot_spawner/package.xml

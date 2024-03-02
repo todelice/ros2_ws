@@ -1,0 +1,9 @@
+/home/robotik/ros2_ws/build/robot_spawner/CMakeFiles/uninstall.dir
+/home/robotik/ros2_ws/build/robot_spawner/CMakeFiles/robot_spawner_uninstall.dir
+/home/robotik/ros2_ws/build/robot_spawner/CMakeFiles/test.dir
+/home/robotik/ros2_ws/build/robot_spawner/CMakeFiles/edit_cache.dir
+/home/robotik/ros2_ws/build/robot_spawner/CMakeFiles/rebuild_cache.dir
+/home/robotik/ros2_ws/build/robot_spawner/CMakeFiles/list_install_components.dir
+/home/robotik/ros2_ws/build/robot_spawner/CMakeFiles/install.dir
+/home/robotik/ros2_ws/build/robot_spawner/CMakeFiles/install/local.dir
+/home/robotik/ros2_ws/build/robot_spawner/CMakeFiles/install/strip.dir

@@ -1,0 +1,2 @@
+Invoking command in '/home/robotik/ros2_ws/build/robot_spawner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotik/ros2_ws/src/robot_spawner -DCMAKE_INSTALL_PREFIX=/home/robotik/ros2_ws/install/robot_spawner
+Invoked command in '/home/robotik/ros2_ws/build/robot_spawner' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotik/ros2_ws/src/robot_spawner -DCMAKE_INSTALL_PREFIX=/home/robotik/ros2_ws/install/robot_spawner
