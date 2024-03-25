@@ -1,0 +1,172 @@
+<sdf version='1.9'>
+  <model name='sambot'>
+    <link name='base_link'>
+      <inertial>
+        <pose>-0.017682 0.018086 -9.737099999999998e-19 0 0 0</pose>
+        <mass>1.9859</mass>
+        <inertia>
+          <ixx>0.0042332999999999997</ixx>
+          <ixy>-1.084202172485504e-19</ixy>
+          <ixz>-3.2899999999999999e-19</ixz>
+          <iyy>0.014104999999999999</iyy>
+          <iyz>1.4390000000000001e-19</iyz>
+          <izz>0.01174</izz>
+        </inertia>
+      </inertial>
+      <collision name='base_link_collision'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://sambot/meshes/base_link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__lidar_link_collision_1'>
+        <pose>0.044818 0 0.049231 1.5708 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://sambot/meshes/lidar_link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='base_link_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://sambot/meshes/base_link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.9902 1 1 1</diffuse>
+          <ambient>0.9902 1 1 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__lidar_link_visual_1'>
+        <pose>0.044818 0 0.049231 1.5708 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://sambot/meshes/lidar_link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+    </link>
+    <joint name='wheel_left' type='revolute'>
+      <pose relative_to='base_link'>-0.017682 0.055 0.024231 0 -0.9901700000000002 0</pose>
+      <parent>base_link</parent>
+      <child>wheel_left_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-10000000000000000</lower>
+          <upper>10000000000000000</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='wheel_left_link'>
+      <pose relative_to='wheel_left'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>5.2042e-18 0.043451 -2.0817e-17 0 0 0</pose>
+        <mass>0.55901000000000001</mass>
+        <inertia>
+          <ixx>0.00081428999999999996</ixx>
+          <ixy>1.4223000000000001e-20</ixy>
+          <ixz>-2.7104999999999999e-20</ixz>
+          <iyy>0.0014954</iyy>
+          <iyz>-2.7284e-21</iyz>
+          <izz>0.00081428999999999996</izz>
+        </inertia>
+      </inertial>
+      <collision name='wheel_left_link_collision'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://sambot/meshes/wheel_left_link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='wheel_left_link_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://sambot/meshes/wheel_left_link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.9902 1 1 1</diffuse>
+          <ambient>0.9902 1 1 1</ambient>
+        </material>
+      </visual>
+    </link>
+    <joint name='wheel_right' type='revolute'>
+      <pose relative_to='base_link'>-0.017682 -0.055 0.024231 -3.141585307179587 0.58799 -5.089991771323275e-22</pose>
+      <parent>base_link</parent>
+      <child>wheel_right_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-10000000000000000</lower>
+          <upper>10000000000000000</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='wheel_right_link'>
+      <pose relative_to='wheel_right'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>-1.0408e-17 0.043451 1.5613e-17 0 0 0</pose>
+        <mass>0.55901000000000001</mass>
+        <inertia>
+          <ixx>0.00081428999999999996</ixx>
+          <ixy>3.2267999999999999e-20</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0014954</iyy>
+          <iyz>-9.9524999999999998e-22</iyz>
+          <izz>0.00081428999999999996</izz>
+        </inertia>
+      </inertial>
+      <collision name='wheel_right_link_collision'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://sambot/meshes/wheel_right_link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='wheel_right_link_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://sambot/meshes/wheel_right_link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.9902 1 1 1</diffuse>
+          <ambient>0.9902 1 1 1</ambient>
+        </material>
+      </visual>
+    </link>
+    <frame name='lidar' attached_to='base_link'>
+      <pose>0.044818 0 0.049231 1.5708 -0 0</pose>
+    </frame>
+    <frame name='lidar_link' attached_to='lidar'/>
+  </model>
+</sdf>
